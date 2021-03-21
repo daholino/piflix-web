@@ -1,0 +1,25 @@
+.movie {
+    width: 220px;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie h3 {
+    word-wrap: break-word;
+    padding-top: 6px;
+    font-size: 16px;
+}
+
+.movie h3:hover {
+    color: #05C74D;
+}
+
+.movie p {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 14px;
+    padding-top: 2px;
+}

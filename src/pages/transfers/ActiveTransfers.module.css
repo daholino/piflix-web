@@ -1,0 +1,66 @@
+.at-section {
+    margin-top: 48px;
+}
+
+.at-data {
+    margin-top: 24px;
+}
+
+.activeTorrent {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #222;
+    padding: 16px 0;
+    align-items: center;
+}
+
+.index {
+    font-weight: 600;
+    width: 32px;
+    color: #999;
+}
+
+.name {
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    flex: 1;
+}
+
+.progress {
+    align-self: flex-end;
+    font-size: 15px;
+    color: #ddd;
+}
+
+.percentageBold {
+    color: #fff;
+    font-weight: 600;
+}
+
+.rendering {
+    align-self: flex-end;
+    font-size: 15px;
+    color: #ddd;
+    font-weight: 600;
+}
+
+.infoMessage {
+    font-size: 15px;
+    padding-top: 2px;
+    color: #ddd;
+}
+
+.noDataMessage {
+    padding-top: 24px;
+}
+
+.delete {
+    margin-left: 16px;
+    color: #999;
+}
+
+.delete:hover {
+    cursor: pointer;
+    color: #db2525;
+}

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+}
+
+a {
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 140px;
+    height: 50px;
+    background-image: url(assets/logo.png);
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #05C74D;
+}
+
+.content {
+    margin-top: 64px;
+}
+
+/* Overrides */
+
+.Toastify__toast-container {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Retina */
+
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (   min--moz-device-pixel-ratio: 1.5),
+    only screen and (     -o-min-device-pixel-ratio: 3/2),
+    only screen and (        min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 192dpi) {
+    .logo {
+        background-image: url(assets/logo@2x.png);
+        background-size: 140px 50px;
+    }
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1040px) {
+    .container {
+        margin: 0 16px;
+    }
+}

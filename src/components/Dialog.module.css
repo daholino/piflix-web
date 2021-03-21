@@ -1,0 +1,57 @@
+.dialog {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.dialogContent {
+    width: 480px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #111;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #222;
+}
+
+.dialogContent p {
+    padding-top: 4px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.dialogActions {
+    margin-top: 16px;
+    float: right;
+    clear: both;
+}
+
+.dialogActions {
+    margin-top: 24px;
+}
+
+.dialogActions button {
+    border: 0;
+    background: #333;
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.dialogActions button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.dialogActions button:last-child {
+    margin: 0;
+}

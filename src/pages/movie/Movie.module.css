@@ -1,0 +1,78 @@
+.files {
+    margin-top: 48px;
+}
+
+.file {
+    margin-top: 16px;
+    border: 0;
+    border-radius: 16px;
+    padding: 16px 16px;
+    outline: none;
+    background: #1c1c1c;
+    color: #fff;
+    font-weight: bold;
+}
+
+.file:hover {
+    cursor: pointer;
+    background: #2c2c2c;
+}
+
+.subtitle {
+    margin-top: 16px;
+    border: 0;
+    border-radius: 16px;
+    padding: 16px 16px;
+    outline: none;
+    background: #1c1c1c;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.subtitle:hover {
+    cursor: pointer;
+    background: #2c2c2c;
+}
+
+.actions {
+    margin-top: 48px;
+}
+
+.actions button {
+    margin-top: 16px;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.actions button:hover {
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background: #db2525;
+    color: #fff;
+}
+
+.deleteBtn:hover {
+    background: #ba2020;
+}
+
+.copy {
+    margin-top: 16px;
+    border: 0;
+    border-radius: 16px;
+    padding: 16px 16px;
+    outline: none;
+    background: #1c1c1c;
+    color: #ccc;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.copy:hover {
+    cursor: pointer;
+    background: #2c2c2c;
+}

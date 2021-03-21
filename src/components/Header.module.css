@@ -1,0 +1,11 @@
+.addTorrent {
+    background: #0c8c3b;
+    padding: 10px 10px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.addTorrent:hover {
+    color: #fff;
+    background: #0a612a;
+}

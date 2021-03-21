@@ -1,0 +1,30 @@
+.addTorrentForm {
+    margin-top: 48px;
+}
+
+.addTorrentForm input[type=text] {
+    width: 100%;
+    font-size: 24px;
+    background: none;
+    border: 0;
+    padding: 6px 0px;
+    border-bottom: 1px solid gray;
+    outline: none;
+    color: #fff;
+}
+
+.addTorrentForm input[type=submit] {
+    margin-top: 24px;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 6px;
+    color: #fff;
+    background: #0c8c3b;
+    font-size: 18px;
+    outline: none;
+}
+
+.addTorrentForm input[type=submit]:hover {
+    cursor: pointer;
+    background: #0a612a;
+}

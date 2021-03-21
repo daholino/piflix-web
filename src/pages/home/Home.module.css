@@ -1,0 +1,7 @@
+.movies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    justify-content: space-between;
+    margin-top: 24px;
+}
